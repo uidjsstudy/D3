@@ -9,10 +9,10 @@ D3는 데이터 중심의 문서(Data-Driven Documents)라는 이름의 약어.
 BSD 라이선스 배포이므로, 비용 없이 영리/비영리 목적 상관없이 코드 사용/수정 가능.
 
 #### 2. 어떻게 작동하는가?
--1. 데이터를 로드한다 (loading)
--2. Html element를 만들어 데이터를 엮는다 (binding)
--3. Element에 엮인 개별 데이터를 토대로 element를 변화시킨다. (transforming)
--4. 사용자 입력에 따른 interaction을 수행한다. (transitioning)
+1. 데이터를 로드한다 (loading)
+2. Html element를 만들어 데이터를 엮는다 (binding)
+3. Element에 엮인 개별 데이터를 토대로 element를 변화시킨다. (transforming)
+4. 사용자 입력에 따른 interaction을 수행한다. (transitioning)
 
 #### 3. 사용상 이슈
 SVG는 ie8 이하 미지원.
@@ -37,9 +37,9 @@ http://sigmajs.org/ - canvas 사용.
 http://helloworld.naver.com/helloworld/651829 - Naver 에서 개발한 Nwagon
 
 #### 6. D3 유틸
--1. 라이브코딩 테스트툴 : http://tributary.io/ 
--2, 한글화 문서 : https://github.com/zziuni/d3/wiki
- 3. 한글화 API : https://github.com/zziuni/d3/wiki/API-Reference
+1. 라이브코딩 테스트툴 : http://tributary.io/ 
+2. 한글화 문서 : https://github.com/zziuni/d3/wiki
+3. 한글화 API : https://github.com/zziuni/d3/wiki/API-Reference
 
 
 ### 2. D3 문법 맛보기
