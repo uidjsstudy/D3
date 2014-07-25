@@ -53,7 +53,7 @@ grunt connect 등으로 local server 실행 후, 접속하여 테스트.
 3. Data bind 
 파일 : sample_bindData.html
 
-4. <div> chart 그리기
+4. div element chart 그리기
 파일 : sample_divChart.html
 
 ### 3. SVG 문법 맛보기
