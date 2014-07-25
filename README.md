@@ -3,28 +3,28 @@
 ## 20140725
 
 ### 1. D3.js
-- 1. 무엇을 위한 라이브러리인가?
+#### 1. 무엇을 위한 라이브러리인가?
 D3는 데이터 중심의 문서(Data-Driven Documents)라는 이름의 약어.
 데이터 시각화 제작을 위한 js 라이브러리로 영국 개발자 mike bostock이 2011년에 개발. 
 BSD 라이선스 배포이므로, 비용 없이 영리/비영리 목적 상관없이 코드 사용/수정 가능.
 
-- 2. 어떻게 작동하는가?
-1. 데이터를 로드한다 (loading)
-2. Html element를 만들어 데이터를 엮는다 (binding)
-3. Element에 엮인 개별 데이터를 토대로 element를 변화시킨다. (transforming)
-4. 사용자 입력에 따른 interaction을 수행한다. (transitioning)
+#### 2. 어떻게 작동하는가?
+-1. 데이터를 로드한다 (loading)
+-2. Html element를 만들어 데이터를 엮는다 (binding)
+-3. Element에 엮인 개별 데이터를 토대로 element를 변화시킨다. (transforming)
+-4. 사용자 입력에 따른 interaction을 수행한다. (transitioning)
 
-- 3. 사용상 이슈
+#### 3. 사용상 이슈
 SVG는 ie8 이하 미지원.
 
-- 4. 샘플
+#### 4. 샘플
 http://christophermanning.org/projects/building-cubic-hamiltonian-graphs-from-lcf-notation/ 
 http://www.jasondavies.com/maps/transition/ 
 http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html 
 http://bl.ocks.org/mbostock/1044242 
 http://bl.ocks.org/mbostock/4339083 
 
-- 5. D3의 대안들
+#### 5. D3의 대안들
 https://datawrapper.de/ 
 http://www.flotcharts.org/ 
 http://g.raphaeljs.com/ - IE6 포함 지원.
@@ -36,10 +36,10 @@ http://arborjs.org/ - canvas 사용.
 http://sigmajs.org/ - canvas 사용.
 http://helloworld.naver.com/helloworld/651829 - Naver 에서 개발한 Nwagon
 
-- 6. D3 유틸
-1. 라이브코딩 테스트툴 : http://tributary.io/ 
-2, 한글화 문서 : https://github.com/zziuni/d3/wiki
-3. 한글화 API : https://github.com/zziuni/d3/wiki/API-Reference
+#### 6. D3 유틸
+-1. 라이브코딩 테스트툴 : http://tributary.io/ 
+-2, 한글화 문서 : https://github.com/zziuni/d3/wiki
+ 3. 한글화 API : https://github.com/zziuni/d3/wiki/API-Reference
 
 
 ### 2. D3 문법 맛보기
