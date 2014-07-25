@@ -43,41 +43,41 @@ http://helloworld.naver.com/helloworld/651829 - Naver 에서 개발한 Nwagon
 
 
 ### 2. D3 문법 맛보기
-- 1. 기본 문법 / 체인 문법
+1. 기본 문법 / 체인 문법
 파일 : sample_grammar.html
 
-- 2. Load CSV Data 
+2. Load CSV Data 
 파일 : sample_loadData.html
 grunt connect 등으로 local server 실행 후, 접속하여 테스트.
 
-- 3. Data bind 
+3. Data bind 
 파일 : sample_bindData.html
 
-- 4. <div> chart 그리기
+4. <div> chart 그리기
 파일 : sample_divChart.html
 
 ### 3. SVG 문법 맛보기
-- 1. SVG는 무엇인가?
+1. SVG는 무엇인가?
 참고) http://www.w3schools.com/svg/ 
 Scalable Vector Graphics의 줄임말.
 IE8 이하를 제외한 대부분의 브라우저가 지원( http://caniuse.com/#search=svg )
 
-- 2. SVG 선언
+2. SVG 선언
 <svg width=”500” height=”50”></svg>
 단위는 px 이 기본이며,
 canvas와 비슷함. ( <canvas id=”myCanvas” width=”500” height=”50”></canvas> )
 
-- 3. SVG 도형 그리기
+3. SVG 도형 그리기
 SVG 도형의 종류는 rect, circle, ellipse, line, polygon, polyline, path, text 
 파일 : sample_svg.html
 
 ### 4. D3로 SVG 그리기
 
-- 1. SVG chart그리기
+1. SVG chart그리기
 파일 : sample_svgChart.html
 
-- 2. SVG chart에 Label 더하기
+2. SVG chart에 Label 더하기
 파일 : sample_svgChartAddLabel.html
 
-- 3. SVG chart에 mouse event 더하기
+3. SVG chart에 mouse event 더하기
 파일 : sample_svgChartMouseEvent.html
