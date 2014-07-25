@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head lang="ko">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TEST D3 - sample.divChart</title>
+  <meta name="description" content="">
+  <style type="text/css">
+    @charset "utf-8";
+    body {
+      font-family: verdana, Arial, applegothic, sans-serif;
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    div.bar {
+      margin-right:5px;
+      display:inline-block;
+      width: 20px;
+      height: 75px;
+      background-color: #f00;
+    }
+  </style>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div class="wrap">
+  </div>
+
+  <script type="text/javascript">
+    //+ 1. svg chart drawing
+    var dataset = [ 5, 10, 13, 19, 21, 25, 22, 18, 19, 13, 11, 12, 15, 20, 23, 25 ],
+        width = 400,
+        height = 200;
+
+    var svg = d3.select('.wrap')
+    .append('svg')
+    .attr('width', width)
+    .attr('height', height);
+
+    var circles = svg.selectAll('rect')
+    .data(dataset)
+    .enter()
+    .append('rect')
+    .attr('x', function(d, i) {
+      return i * (width / dataset.length);
+    })
+
+    //+1. height 표기
+    .attr('y', 0)
+    .attr('width', 20)
+    .attr('height', function(d) {
+      return d;
+    });
+
+    /*
+    //+2. graph 위 아래 변경하기
+    .attr('y', function(d) {
+      return height - d;
+    })
+    .attr('width', 20)
+    .attr('height', function(d) {
+      return d;
+    });
+    */
+
+    /*
+    // +3. 상수로 graph 늘려주기
+    .attr('y', function(d) {
+      return height - d * 4;
+    })
+    .attr('width', 20)
+    .attr('height', function(d) {
+      return d * 4
+    });
+    */
+
+
+  </script>
+</body>
+</html>

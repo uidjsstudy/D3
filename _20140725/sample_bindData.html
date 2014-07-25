@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head lang="ko">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TEST D3 - sample.bindData</title>
+  <meta name="description" content="">
+  <style type="text/css">
+    @charset "utf-8";
+    body {
+      font-family: verdana, Arial, applegothic, sans-serif;
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div class="wrap">
+    <ul class="datas">
+    </ul>
+  </div>
+
+  <script type="text/javascript">
+    // +1. bind data
+    var dataset = [ 5, 10, 15, 20, 25 ];
+
+    d3.select('.datas')
+    .selectAll('li') //<ul class="datas"> 내의 <li>를 모두 선택한다. <li>가 없을 경우, 빈 선택물을 반환한다.
+    .data(dataset)
+    .enter() //data와 엮인 새로운 문서요소를 생성한다.
+    .append('li')
+    .text(function(d) {
+      return 'result :' + d;
+    })
+
+    // +2. use style
+    .style('color', function(d) {
+      if(d > 15) {
+        return '#f00';
+      }else{
+        return '#0f0';
+      }
+    });
+  </script>
+</body>
+</html>

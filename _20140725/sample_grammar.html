@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head lang="ko">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TEST D3 - sample.grammar</title>
+  <meta name="description" content="">
+  <style type="text/css">
+    @charset "utf-8";
+    body {
+      font-family: verdana, Arial, applegothic, sans-serif;
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div class="wrap">
+  </div>
+
+  <script type="text/javascript">
+    // +1. d3 기본 문법
+    var body = d3.select('.wrap');
+    var p = body.append('p');
+    p.text('Hello d3');
+
+    // +2. d3 체인 문법
+    d3.select('.wrap').append('p').text('Chain d3');
+  </script>
+</body>
+</html>
