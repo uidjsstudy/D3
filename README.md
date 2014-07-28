@@ -63,8 +63,8 @@ SVG는 ie8 이하 미지원.
 	* IE8 이하를 제외한 대부분의 브라우저가 지원( <http://caniuse.com/#search=svg> )
 
 2. SVG 선언
-	'<svg width=”500” height=”50”></svg>'
-	'<canvas id=”myCanvas” width=”500” height=”50”></canvas>'
+	* <svg width=”500” height=”50”></svg>
+	* <canvas id=”myCanvas” width=”500” height=”50”></canvas>
 	* svg의 단위는 px 이 기본이며, canvas와 비슷.
 
 3. SVG 도형 그리기
